@@ -1,0 +1,13 @@
+.option-box {
+    /* padding: 2% 1%; */
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.option-box label {
+    font-size: 12px;
+}
+
+.option-img {
+    height: 80px;
+    width: auto;
+}
