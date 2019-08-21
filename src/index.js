@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Destaques from './destaques/Destaques';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route } from 'react-router-dom';
 
@@ -14,6 +15,7 @@ ReactDOM.render(
         <div className="col-md-10">
             <BrowserRouter>
                 <Route exact="true" path="/" component={App} />
+                <Route path="/destaques" component={Destaques} />
             </BrowserRouter>
         </div>
 

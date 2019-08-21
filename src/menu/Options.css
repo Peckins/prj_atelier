@@ -1,5 +1,4 @@
 .option-box {
-    /* padding: 2% 1%; */
     background-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -9,5 +8,5 @@
 
 .option-img {
     height: 80px;
-    width: auto;
+    width: 130px;
 }
