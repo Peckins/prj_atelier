@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+// componentes
 import App from './App';
 import Destaques from './destaques/Destaques';
+import Sobre from './sobre/Sobre';
+
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route } from 'react-router-dom';
 
@@ -16,6 +19,7 @@ ReactDOM.render(
             <BrowserRouter>
                 <Route exact="true" path="/" component={App} />
                 <Route path="/destaques" component={Destaques} />
+                <Route path="/sobre" component={Sobre} />
             </BrowserRouter>
         </div>
 

@@ -19,7 +19,7 @@ export default class App extends React.Component {
   render() {
     return (
         <div className="jumbotron">
-            <Nav titulo="Destaques" />
+            <h3 className="text-center">Destaques</h3>
 
             <hr />
 

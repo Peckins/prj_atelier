@@ -1,11 +1,14 @@
-/* container do menu */
 .jumbotron {
     background-color: rgba(201, 181, 218, 0.7);
     border-radius: 10px;
     margin: 1% 10%;
 }
 
-.link {
-    text-decoration: none;
-    color: black;
+.container-img {
+    width: 500px;
+    margin: 3% auto;
+}
+
+.text {
+    font-size: 10px;
 }
